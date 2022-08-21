@@ -1,9 +1,10 @@
-import { Container, Section, Col, Tab, Row, Nav } from "react-bootstrap";
+import React from "react";
+import { Container, Col, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "..assets/img/project-img1.png";
-import projImg2 from "..assets/img/project-img2.png";
-import projImg3 from "..assets/img/project-img3.png";
+import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
 
 export const Projects = () => {
   const projects = [
@@ -25,7 +26,7 @@ export const Projects = () => {
   ];
 
   return (
-    <Section className="project" id="project">
+    <section className="project" id="project">
       <Container>
         <Row>
           <Col>
@@ -60,6 +61,6 @@ export const Projects = () => {
         </Row>
       </Container>
       <img className="background-image-right" alt="" src={colorSharp2}></img>
-    </Section>
+    </section>
   );
 };
