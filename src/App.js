@@ -7,14 +7,16 @@ import { NavBar } from "./components/NavBar.js";
 // import { Banner } from "./components/Banner";
 // import { Skills } from "./components/Skills";
 // import { Projects } from "./components/Projects";
+import { Footer } from "./components/Footer.js";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      {/* <Banner />
+      <Banner />
       <Skills />
-      <Projects /> */}
+      <Projects />
+      <Footer />
     </div>
   );
 }
